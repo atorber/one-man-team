@@ -1,10 +1,10 @@
 import click
 import os
 from dotenv import load_dotenv, set_key
-from lark import LarkAPI
+from cli.lark import LarkAPI
 import json
 from pathlib import Path
-from completion import completion
+from cli.completion import completion
 from tabulate import tabulate
 import yaml
 import shutil
@@ -51,7 +51,7 @@ def format_output(data, format=None):
 
 @click.group()
 def cli():
-    """OMT - OpenMindTech CLI tool for Feishu/Lark"""
+    """One Man Team CLI tool"""
     pass
 
 # Config 相关命令组

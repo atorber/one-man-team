@@ -7,7 +7,7 @@ from lark_oapi.api.docs.v1 import *
 from lark_oapi.api.docx.v1 import *
 from tabulate import tabulate
 import time
-from lark import LarkAPI
+from cli.lark import LarkAPI
 import yaml
 
 # 引入环境变量

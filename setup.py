@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='one-man-team',
-    version='0.1.2',
+    version='0.1.3',
     description='One Man Team CLI Tool',
     long_description=open('README.md', 'r', encoding='utf-8').read(),
     long_description_content_type='text/markdown',
@@ -20,7 +20,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'omt=one_man_team.cli:cli',
+            'omt=cli.cli:cli',
         ],
     },
     extras_require={

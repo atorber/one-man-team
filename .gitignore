@@ -6,3 +6,4 @@ omt.egg-info/*
 .pytest_cache/*
 .env
 one_man_team.egg-info/*
+cli/__pycache__/*

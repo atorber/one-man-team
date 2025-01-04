@@ -1,7 +1,7 @@
 import os
 import pytest
 from click.testing import CliRunner
-from cli import cli
+from cli.cli import cli
 
 # 测试数据
 TEST_DATA = {
