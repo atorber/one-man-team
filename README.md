@@ -20,7 +20,7 @@ omt config set --app-id YOUR_APP_ID --app-secret YOUR_APP_SECRET
 
 ![omt-project-init](./docs/images/lark-docs.png)
 
-4. 运行`omt project clone my-project`，就可以将你项目文档克隆到本地，之后就可以使用cursor愉快进行项目开发。
+4. 运行`omt project clone my-project`，就可以将你项目文档克隆到本地项目的dev-docs目录下，之后就可以使用cursor愉快进行项目开发。
 
 ![omt-project-init](./docs/images/dev-docs.png)
 
