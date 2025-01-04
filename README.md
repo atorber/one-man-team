@@ -7,14 +7,20 @@ OMT 是一个用于管理文档知识库的命令行工具。它可以帮助你�
 1. 安装omt cli工具
 
 ```bash
-pip install omt-cli
+pip install one-man-team
 ```
 
-2. 运行`omt project init my-project`，就可以在知识库中创建一个项目文档，然后你可以在飞书知识库中创建，进行知识共享。
+2. 设置飞书应用凭证  
+
+```bash
+omt config set --app-id YOUR_APP_ID --app-secret YOUR_APP_SECRET --app-token YOUR_APP_TOKEN
+```
+
+3. 运行`omt project init my-project`，就可以在知识库中创建一个项目文档，然后你可以在飞书知识库中创建，进行知识共享。
 
 ![omt-project-init](./docs/images/lark-docs.png)
 
-3. 运行`omt project clone my-project`，就可以将你项目文档克隆到本地，之后就可以使用cursor愉快进行项目开发。
+4. 运行`omt project clone my-project`，就可以将你项目文档克隆到本地，之后就可以使用cursor愉快进行项目开发。
 
 ![omt-project-init](./docs/images/dev-docs.png)
 
