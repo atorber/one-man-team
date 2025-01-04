@@ -1,0 +1,7 @@
+dev-docs/*
+__pycache__/*
+.DS_Store
+.vscode
+omt.egg-info/*
+.pytest_cache/*
+.env
