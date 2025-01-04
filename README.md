@@ -13,7 +13,7 @@ pip install one-man-team
 2. 设置飞书应用凭证  
 
 ```bash
-omt config set --app-id YOUR_APP_ID --app-secret YOUR_APP_SECRET --app-token YOUR_APP_TOKEN
+omt config set --app-id YOUR_APP_ID --app-secret YOUR_APP_SECRET
 ```
 
 3. 运行`omt project init my-project`，就可以在知识库中创建一个项目文档，然后你可以在飞书知识库中创建，进行知识共享。
@@ -42,7 +42,7 @@ pip install -e .
 1. 设置配置：
 ```bash
 # 设置应用凭证
-omt config set --app-id YOUR_APP_ID --app-secret YOUR_APP_SECRET --app-token YOUR_APP_TOKEN
+omt config set --app-id YOUR_APP_ID --app-secret YOUR_APP_SECRET
 
 # 验证配置
 omt config get
@@ -62,7 +62,7 @@ omt project init my-project --space-name "My Project Space"
 ### 配置命令 (config)
 ```bash
 # 完整形式
-omt config set --app-id YOUR_APP_ID --app-secret YOUR_APP_SECRET --app-token YOUR_APP_TOKEN --output-format yaml
+omt config set --app-id YOUR_APP_ID --app-secret YOUR_APP_SECRET --output-format yaml
 
 # 简写形式
 omt config set -i YOUR_APP_ID -s YOUR_APP_SECRET -t YOUR_APP_TOKEN -o yaml

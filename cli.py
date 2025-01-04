@@ -36,7 +36,7 @@ load_config()
 api = LarkAPI(
     app_id=os.getenv("app_id"),
     app_secret=os.getenv("app_secret"),
-    app_token=os.getenv("app_token")
+    app_token=os.getenv("app_token") if os.getenv("app_token") else None
 )
 
 def format_output(data, format=None):
