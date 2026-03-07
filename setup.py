@@ -23,11 +23,8 @@ setup(
             'omt=cli.cli:cli',
         ],
     },
-    extras_require={
-        'completion': ['click-completion'],
-        'test': [
-            'pytest>=6.0',
-            'pytest-cov',
-        ],
+    package_data={
+        'cli': ['*'],
     },
+    python_requires='>=3.8',
 ) 
